@@ -1,8 +1,8 @@
 # Evaluation From Players
 
-In this part, we focus on the evaluation of games. There exist many standards to evaluate games. Here we use positive rates ratio, average playtime and sales as the standard of the games evaluation. And we also put the price of games into our analysis to see the price strategy of game companies.
+In this part, we focus on the evaluation of games. There exist many standards to evaluate games. Here we use positive rating ratio, average playtime and sales as the standard of the games evaluation. And we also put the price of games into our analysis to see the price strategy of game companies.
 
-For these three evaluation criteria, ratio is the most convincing one as it represents the impression of players. It directly shows the mainstream opinion toward the games. The average playtime not only depends on the quality of games, but also depends on the type of games. Sales will be influenced by the reputation of the companies and the advertisement of the games.
+For these three evaluation criteria, ratio is the most convincing one as it represents the impression of players. It directly shows the mainstream opinions toward the games. The average playtime not only depends on the quality of games, but also depends on the type of games. Sales will be influenced by the reputation of the companies and the advertisement of the games.
 
 Price is a kind of evaluation, too. It shows the resources put in it and it represents the evaluation from the companies in some way.
 
@@ -21,11 +21,11 @@ After the brief look and filtering, we draw the parallel coordinates to see the 
 
 - Valve and Ubisoft have many free games, which corresponds to our claim above.
 
-- Majority of game with low price have a large ratio of good ratings
+- The majority of games with low price have a large ratio of good ratings.
 
-- Almost all the games have large ratio, which accord with the claim that AAA games have large ratings
+- Almost all the games have high ratio, which accords with the claim that AAA games have high positive ratings.
 
-- High ratios will also have relatively high average playtime
+- High ratios will also have relatively high average playtime.
 
 
 ## Correlation of Different Variable
@@ -43,7 +43,7 @@ Ratio does not affect much on average playtime or sales. For AAA developers, eve
 Price does not affect much on sales volume. For AAA games, they would have normal sales with acceptable price.
 
 
-## Relationship of AAA and non-AAA
+## Relationship of AAA and Non-AAA
 
 We will then compare the evaluation criteria between AAA and Non-AAA games.
 
