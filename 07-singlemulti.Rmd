@@ -1,0 +1,27 @@
+# Game Mode
+
+## Multi-player Games
+
+```{r echo=FALSE}
+knitr::include_app("https://jerrysjhe.shinyapps.io/shiny_7_1/", height = "550px")
+```
+
+Multiplayer games are the games that people can play with other players.
+Single-player-only games are games only for single players.
+
+To see the difference between multi-player games and single-player-only games, we can choose one variable and draw box plots to see the distribution. We can tell from the plots that multi-player games usually have slightly more playtime,less ratio, and they are more expensive. In sales volume and total sales, they do much better than single-player-only games. Coincidentally, these trends are the same in AAA games and Non-AAA games.
+
+Multiplayer games perform better in most variables, and AAA developers are more likely to develop them. In contrast, Non-AAA developers develop single-player-only games almost twice as many as multi-player games. Moreover, multiplayer games from AAA developers have higher quality than Non-AAA developers. That must be some other reasons, we guess Non-AAA developers could not devote much to maintain the servers of multi-player games.
+
+
+## Single-player Games
+
+```{r echo=FALSE}
+knitr::include_app("https://jerrysjhe.shinyapps.io/final_7_2/", height = "550px")
+```
+
+Single games are the games that people can play alone.
+
+Multiplayer-only games are games only for multiple players.
+ 
+Multiplayer-only games don’t perform better than single games in playtime and ratio. But they have lower prices and sell much more than single games. AAA developers and other developers develop similar number of multiplayer-only games. It is a little weird that AAA developers don’t develop more multiplayer-only games since they sell well. Concerning the average playtime and ratio, we guess maybe players are more strict with multiplayer-only games. So AAA developers are cautious with the multiplayer-only games they release. If they are good enough, their reputation would be damaged by the negative ratings.

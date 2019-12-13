@@ -1,2 +1,26 @@
 # Data sources
 
+The data source is: https://nik-davis.github.io/posts/2019/steam-data-collection/
+
+Since the data above is already scratched from steam and cleaned to a sorted table, we download and read the csv file directly and then clean the data once again based on our request for future use. First, the data is composed of a variety of information for each game on Steam. We make use of several columns such as average playtime and positive ratings which we can eventually turn into features for analysis, and we use price and owners columns to possibly inform the performances and sales of each game. 
+
+The owners column of the SteamSpy data could be useful for analyzing specifically. However, the name format for each company is slightly different that may not be accurate enough for doing general analysis. In the process of cleaning, we should standardize the names for all the companies in dataset. There is also a tags column which appears to crossover with the categories and genres columns in the Steam data. We would like to merge these, or keep one over the other.
+
+
+## Obstacles
+
+1. There are too many tags for each game, many tags are too specified that is difficult to classify.
+
+2. The sales of a game in dataset only provide ranges (categories) with no specific numbers.
+
+3. The name format for each company is slightly different that may not be accurate enough for doing general analysis.
+
+## Plan
+
+1. Pick the tags with high frequency, and delete the other tags.
+
+2. Standardize the names for all the companies in dataset.
+
+3. Look for the raw data and try to get the specific sales, if not, we will use other methods to solve the issue.
+
+

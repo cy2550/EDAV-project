@@ -1,1 +1,9 @@
 # Missing values
+
+Since the data is pre-cleaned before, all the data with missing values are dropped. Therefore, there are only a few missing values in our dataset. We will draw the table for missing data to further prove our conclusion.
+
+
+```{r, echo=FALSE, warning=FALSE}
+library(tidyverse)
+colSums(is.na(company_data)) %>% sort(decreasing = TRUE)
+```

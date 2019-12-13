@@ -1,9 +1,50 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAMES HERE"
+title: "How AAA Games Standout"
+author: "Shijie He, Chutian Chen, Banruo Xie, CongCheng Yan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
 # Introduction
+
+As the digital technology develops rapidly, video games are part of our life. Many students have played games on a PC platform Steam, including us. There are some video games on Steam now and many of them have really great quality. However, it’s difficult to select good games in such a large number of games through the brief game introduction on Steam. So many people will choose to buy and play the games from well-known and developers with adequate funds as these games are more likely to be great. These games are what we call AAA games.
+
+It’s obvious that not all AAA games are excellent and not all Non-AAA games are boring. We can’t simply use the “good” or “popular” to determine the difference between AAA games and Non-AAA. Thus, in the project, we would like to find what makes AAA games different from the other games. We are going to present this topic from three parts, evaluation from players, game mode(focus on single-player only and multi-player only games) and game type.
+
+Our team has great passion for video games and we spend lots of time on them. We are all interested in finding trends and patterns behind the popular games. Moreover, we would gain insights into what makes a game more successful in terms of sales, playtime, ratings and etc. We want to take a closer look at the data behind the games. But first, let us introduce some backgrounds for our data visualization.
+
+
+## Brief introduction of Steam
+
+**Steam** is a major gaming platform developed by Valve in PC which includes almost all possible games on the PC. It was first launched as gaming improvement software in 2003 as a way for Valve to provide automatic updates for their games, and expanded to include games from third-party publishers. Steam has also expanded into an online web-based and mobile digital storefront. Steam offers digital rights management for protecting game copyrights, matchmaking servers for online multiplayer gaming, video streaming for recording and publishing game videos, and social networking services for connecting and exploring game social. It also provides the user with installation and automatic updating of games, and community features such as friends lists and groups, cloud saving, and in-game voice and chat functionality.
+
+For more detailed information, please visit: https://en.wikipedia.org/wiki/Steam_(service)
+
+
+## Criteria for judging a game
+
+We will use the definition of AAA games: It is a classification used for video games produced and distributed by major famous publisher, typically having higher development and marketing budgets. AAA is analogous to the film industry term "blockbuster". 
+
+As there is no generally accepted major famous game company list, we pick the companies which have the highest total sales on steam as our AAA companies (top 0.5% in our project), and games of them are AAA games.
+
+For more detailed information, please visit:
+https://en.wikipedia.org/wiki/AAA_(video_game_industry)
+
+
+## Question
+
+- Which companies are major and famous? What games do they have?
+
+- Is there any pattern between the player feedback of AAA games? For example, the relationship between positive ratings and average playtime.
+
+- Is there any difference of player feedback between AAA and Non-AAA games?
+
+- What kind of game modes AAA companies prefer, single-player or multi-player? What about the other companies? 
+
+- Will the game modes influence the sales or positive rates?
+
+- What type of games do the developers prefer to make? What is the difference of the game tags between AAA and Non-AAA games?
+
+
+Finally, we have our overall objective: the elements that make AAA games different from the other games.
 
